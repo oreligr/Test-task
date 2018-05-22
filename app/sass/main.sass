@@ -167,6 +167,7 @@ header
 			color: $gray
 			text-decoration: none
 			img
+				margin-right: 5px
 				display: inline-block
 	&-replies
 		.comment
@@ -181,6 +182,29 @@ header
 			display: inline-block
 		color: $gray
 		font-size: 15px
+	.comment
+		&-leave
+			margin-left: 100px
+			textarea
+				margin-top: 15px
+				width: 100%
+			.comment
+				&-reply
+					font-size: 17px
+					color: $gray
+					float: left
+					img
+						margin-right: 5px
+						transform: rotateY(180deg)
+						display: inline-block
+				&-cancel
+					float: right
+					font-size: 17px
+					color: $gray
+					cursor: pointer
+					img
+						margin-right: 5px
+						display: inline-block
 .load-more
 	width: 100%
 	text-align: center
