@@ -8,10 +8,97 @@
   //*
 
 @media screen and (max-width: 992px)
+  .container
+    width: 100%
+    padding: 15px
+    box-sizing: border-box
+  .article
+    margin-left: 0
   //*
 
 @media screen and (max-width: 768px)
+  h1
+    font-size: 26px
+  .article
+    padding: 30px
+    h1
+      line-height: 34px
+    &-title
+      &--img
+        left: auto
+        right: 20px
+        top: 35px
+    &-img
+      margin: 0 auto 20px
+      display: table
+      float: none
+    &-info
+      >div
+        float: none
+        margin-bottom: 5px
+        margin-top: 5px
+    p
+      font-size: 15px
+  .comment
+    &-replies
+      .comment
+        margin-left: 20px
+        margin-top: 20px
   //*
 
 @media screen and (max-width: 480px)
+  h1
+    font-size: 24px
+  .article
+    padding:  15px
+    h1
+      line-height: 30px
+    &-title
+      &--img
+        display: none
+    p
+      margin-bottom: 15px
+      font-size: 14px
+    &-info
+      >div
+        font-size: 14px
+        img
+          margin-bottom: -2px
+  .comments
+    margin-top: 15px
+    &-title
+      font-size: 24px
+      line-height: 28px
+  .comment
+    .comment
+      .comment
+        &-content
+          margin-left: 0
+        &-date
+          margin-bottom: 0px
+    &-replies
+      .comment
+        margin-left: 0
+    &-img
+      margin-right: 10px
+      width: 60px
+    &-content
+      margin-left: 0
+      p
+        margin-bottom: 5px
+    &-date
+      margin-bottom: 20px
+    &-actions
+      margin-left: 0
+      text-align: right
+      margin-bottom: 10px
+      >a
+        font-size: 14px
+        margin-right: 7px
+    textarea
+      width: calc(100% - 70px)
+  .btn
+    width: 100px
+    height: 40px
+
   //*
